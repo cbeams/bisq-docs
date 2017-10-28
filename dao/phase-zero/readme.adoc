@@ -124,7 +124,7 @@ After two years of development and testing, Bisq went into production on April 1
 Bisq is still small, but has been growing steadily. The USD volume of bitcoin exchanged through the network has doubled roughly every 3½ months since the project went live, from $36K in April 2016 to $438K in September 2017. This growth has been organic, with minimal marketing.
 
 ._Bisq global monthly trading volume in USD, April 2016&ndash;October 2017_
-image::phase-zero/volume.png[Bisq Trading Volume in USD]
+image::volume.png[Bisq Trading Volume in USD]
 
 === Funding
 
@@ -158,7 +158,7 @@ We introduce a token, BSQ, designed to facilitate a transfer of value from the t
 BSQ is Bisq's own custom implementation of the _colored coin_ concept.footnote:[Bitcoin wiki, "Colored coins," https://en.bitcoin.it/wiki/Colored_Coins, November 2015.] From the 25 bitcoin (BTC) that have been donated to the project since its inception in March 2014, we create 2.5 million BSQ tokens, such that each BSQ token is represented on the Bitcoin blockchain by 0.00001000 BTC, or 1000 satoshis.
 
 ._Initial distribution of BSQ tokens from BTC donations_
-image::phase-zero/bsq-distribution.png[Initial BSQ distribution]
+image::bsq-distribution.png[Initial BSQ distribution]
 {empty}
 
 We distribute these 2.5 million BSQ to 144 opted-in _past contributors_ to the Bisq project, as a way of rewarding these individuals for their efforts over the years. Stake is distributed according to the relative value each contributor has added to the project over time. As will be described further below, BSQ tokens are used to vote on and make decisions about the Bisq DAO itself, and by initially distributing BSQ to past contributors, we intentionally establish the Bisq DAO as a _meritocracy_ in which those who have contributed the most value to the project in the past are those who have the most say over its future.
@@ -168,7 +168,7 @@ We distribute these 2.5 million BSQ to 144 opted-in _past contributors_ to the B
 Today, without BSQ, traders use Bisq and pay Bisq trading fees in BTC. At the same time, contributors work to improve Bisq, and in turn make Bisq more useful to traders. This ultimately causes more traders to use Bisq more often, and a cycle of growth perpetuates. There is a limit, however, on how much growth can occur, because while trading fees paid in BTC automatically compensate arbitrators, other contributors are currently not compensated at all.
 
 ._Limitations of Bisq's current funding model_
-image::phase-zero/limitations.png[Limitations]
+image::limitations.png[Limitations]
 {empty}
 
 Bisq's current funding model has worked well enough so far mainly because the Bisq team has been so small. Bisq's founders have played most key roles in the system, including that of arbitrator, such that compensating arbitrators with trading fees has, in practice, meant compensating the project's primary contributors as well. The problem is that this approach breaks down quickly as more contributors get involved, and as explained above, it is critical to the success of the project to grow the number of contributors and to distribute responsibilities amongst them.
@@ -184,7 +184,7 @@ It is for these reasons that BSQ is needed. As we'll see in the sections that fo
 The BSQ token has five uses, also known as _utilities_ or _functions_, within the Bisq DAO:
 
 ._Uses of the BSQ token within the Bisq DAO_
-image::phase-zero/bsq-uses.png[BSQ uses]
+image::bsq-uses.png[BSQ uses]
 
  1. *Trading.* Using the Bisq exchange, (a) stakeholders sell BSQ, to (b) traders who buy it.
  2. *Spending.* Traders spend BSQ on trading fees at a discounted rate vs. BTC.
@@ -201,7 +201,7 @@ When traders spend BSQ on trading fees, they are in fact _destroying_ those BSQ.
 Likewise, when contributors submit compensation requests for BSQ, they are in fact requesting the right to issue, or _create_ those BSQ. Each compensation request revolves around a Bitcoin transaction in the amount of satoshis required to represent the requested amount of BSQ, and when that compensation request is approved by voting, those satoshis are _colored_ such that the BSQ network validates them as spendable BSQ. In this way, *earning BSQ through compensation requests _increases_ the total supply of BSQ.*
 
 ._How BSQ is issued and destroyed_
-image::phase-zero/bsq-creation-destruction.png[How BSQ is issued and destroyed]
+image::bsq-creation-destruction.png[How BSQ is issued and destroyed]
 
 === How BSQ decentralizes compensation and enables monetary policy
 
