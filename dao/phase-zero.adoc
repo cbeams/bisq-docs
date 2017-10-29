@@ -1,1 +1,1 @@
-phase-zero/readme.adoc
+This document has moved link:phase-zero[here].
