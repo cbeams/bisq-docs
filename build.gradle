@@ -22,3 +22,5 @@ asciidoctor {
 }
 
 build.dependsOn asciidoctor
+
+asciidoctor.requires project.file('verbose-mode.rb')
